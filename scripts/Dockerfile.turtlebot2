@@ -3,12 +3,12 @@ FROM humble_base
 # Turtlebot2 simulated and hospital world
 
 RUN mkdir -p /home/turtlebot2_ws/src && cd /home/turtlebot2_ws/src && \
-	git clone -b humble-devel https://github.com/JdeRobot/CustomRobots.git
+	git clone -b humble-devel https://github.com/Amglega/RoboticsInfraestructure.git
 
 RUN echo 'source /home/turtlebot2_ws/install/setup.bash' >> ~/.bashrc
-RUN echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/turtlebot2_ws/src/CustomRobots/CustomRobots/amazon_hospital/models' >> ~/.bashrc
-RUN echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/turtlebot2_ws/src/CustomRobots/CustomRobots/amazon_hospital/fuel_models' >> ~/.bashrc
-RUN echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/turtlebot2_ws/src/CustomRobots/CustomRobots/amazon_hospital/hospital_world/models' >> ~/.bashrc
+RUN echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/turtlebot2_ws/src/RoboticsInfraestructure/CustomRobots/amazon_hospital/models' >> ~/.bashrc
+RUN echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/turtlebot2_ws/src/RoboticsInfraestructure/CustomRobots/amazon_hospital/fuel_models' >> ~/.bashrc
+RUN echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/turtlebot2_ws/src/RoboticsInfraestructure/CustomRobots/amazon_hospital/hospital_world/models' >> ~/.bashrc
 RUN echo 'source /usr/share/gazebo/setup.bash' >> ~/.bashrc
 
 WORKDIR /home/turtlebot2_ws

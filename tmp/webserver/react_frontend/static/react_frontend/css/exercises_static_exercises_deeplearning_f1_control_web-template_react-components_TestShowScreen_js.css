@@ -1,0 +1,32 @@
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!../exercises/static/exercises/deeplearning_f1_control/web-template/react-components/css/TestShowScreen.css ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+img.test-show-screen {
+  width: 800px;
+  height: 600px; }
+
+div.test-show-screen {
+  border: 1px solid #c0c0c0;
+  padding: 8px 32px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+
+div.panel-parent {
+  display: flex;
+  flex-direction: row; }
+
+div.panel {
+  flex: 1; }
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3NzL2V4ZXJjaXNlc19zdGF0aWNfZXhlcmNpc2VzX2RlZXBsZWFybmluZ19mMV9jb250cm9sX3dlYi10ZW1wbGF0ZV9yZWFjdC1jb21wb25lbnRzX1Rlc3RTaG93U2NyZWVuX2pzLmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFBQTtFQUNJLFlBQVk7RUFDWixhQUFhOztBQUdqQjtFQUNJLHlCQUF5QjtFQUN6QixpQkFBaUI7RUFDakIsc0JBQXNCO0VBQ3RCLFdBQVc7RUFDWCxpQkFBaUI7RUFDakIscUJBQXFCO0VBQ3JCLGVBQWU7O0FBR25CO0VBQ0ksU0FBUTtFQUNSLFVBQVM7RUFDVCxXQUFVO0VBQ1YsWUFBVztFQUNYLGNBQWM7O0FBR2xCO0VBQ0ksYUFBYTtFQUNiLG1CQUFtQjs7QUFHdkI7RUFDSSxPQUFPIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmVhY3RfZnJvbnRlbmQvLi4vZXhlcmNpc2VzL3N0YXRpYy9leGVyY2lzZXMvZGVlcGxlYXJuaW5nX2YxX2NvbnRyb2wvd2ViLXRlbXBsYXRlL3JlYWN0LWNvbXBvbmVudHMvY3NzL1Rlc3RTaG93U2NyZWVuLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbWcudGVzdC1zaG93LXNjcmVlbiB7XG4gICAgd2lkdGg6IDgwMHB4O1xuICAgIGhlaWdodDogNjAwcHg7XG59XG5cbmRpdi50ZXN0LXNob3ctc2NyZWVuIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjYzBjMGMwO1xuICAgIHBhZGRpbmc6IDhweCAzMnB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDA7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuaHRtbCwgYm9keSB7XG4gICAgbWFyZ2luOjA7XG4gICAgcGFkZGluZzowO1xuICAgIHdpZHRoOjEwMCU7XG4gICAgaGVpZ2h0OjEwMCU7XG4gICAgb3ZlcmZsb3c6IGF1dG87XG59XG5cbmRpdi5wYW5lbC1wYXJlbnQge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbn1cblxuZGl2LnBhbmVsIHtcbiAgICBmbGV4OiAxO1xufSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/
